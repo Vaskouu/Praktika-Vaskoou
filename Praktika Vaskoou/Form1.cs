@@ -26,5 +26,10 @@ namespace Praktika_Vaskoou
         {
 
         }
+
+        private void Quit_button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
