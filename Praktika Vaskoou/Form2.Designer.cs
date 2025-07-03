@@ -1,4 +1,6 @@
-﻿namespace Praktika_Vaskoou
+﻿using System;
+
+namespace Praktika_Vaskoou
 {
     partial class Settings_frm
     {
@@ -30,7 +32,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.master_volume = new System.Windows.Forms.Label();
+            this.sound_volume = new System.Windows.Forms.Label();
+            this.music_volume = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,22 +53,53 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.music_volume);
+            this.panel1.Controls.Add(this.sound_volume);
+            this.panel1.Controls.Add(this.master_volume);
             this.panel1.Location = new System.Drawing.Point(267, 84);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(671, 656);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button1
+            // master_volume
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(25, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Music";
-            this.button1.UseVisualStyleBackColor = true;
+            this.master_volume.AutoSize = true;
+            this.master_volume.BackColor = System.Drawing.Color.Transparent;
+            this.master_volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.master_volume.ForeColor = System.Drawing.SystemColors.Control;
+            this.master_volume.Location = new System.Drawing.Point(20, 29);
+            this.master_volume.Name = "master_volume";
+            this.master_volume.Size = new System.Drawing.Size(170, 53);
+            this.master_volume.TabIndex = 0;
+            this.master_volume.Text = "Master";
+            this.master_volume.Click += new System.EventHandler(this.master_volume_Click);
+            // 
+            // sound_volume
+            // 
+            this.sound_volume.AutoSize = true;
+            this.sound_volume.BackColor = System.Drawing.Color.Transparent;
+            this.sound_volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sound_volume.ForeColor = System.Drawing.SystemColors.Control;
+            this.sound_volume.Location = new System.Drawing.Point(20, 204);
+            this.sound_volume.Name = "sound_volume";
+            this.sound_volume.Size = new System.Drawing.Size(163, 53);
+            this.sound_volume.TabIndex = 1;
+            this.sound_volume.Text = "Sound";
+            this.sound_volume.Click += new System.EventHandler(this.sound_volume_Click);
+            // 
+            // music_volume
+            // 
+            this.music_volume.AutoSize = true;
+            this.music_volume.BackColor = System.Drawing.Color.Transparent;
+            this.music_volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.music_volume.ForeColor = System.Drawing.SystemColors.Control;
+            this.music_volume.Location = new System.Drawing.Point(20, 116);
+            this.music_volume.Name = "music_volume";
+            this.music_volume.Size = new System.Drawing.Size(148, 53);
+            this.music_volume.TabIndex = 2;
+            this.music_volume.Text = "Music";
+            this.music_volume.Click += new System.EventHandler(this.music_volume_Click);
             // 
             // Settings_frm
             // 
@@ -80,15 +115,23 @@
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.Music_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void master_volume_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label music_volume;
+        private System.Windows.Forms.Label sound_volume;
+        private System.Windows.Forms.Label master_volume;
     }
 }
