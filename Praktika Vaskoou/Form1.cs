@@ -31,5 +31,11 @@ namespace Praktika_Vaskoou
         {
             Application.Exit();
         }
+
+        private void options_button_Click(object sender, EventArgs e)
+        {
+            Settings_frm settingsForm = new Settings_frm();
+            settingsForm.Show();
+        }
     }
 }
