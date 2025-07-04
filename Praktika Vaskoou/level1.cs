@@ -24,7 +24,9 @@ namespace Praktika_Vaskoou
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            level2 level2Form = new level2();
+            level2Form.Show();
+            this.Close();
         }
     }
 }

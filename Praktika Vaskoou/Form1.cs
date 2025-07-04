@@ -19,6 +19,9 @@ namespace Praktika_Vaskoou
 
         private void button1_Click(object sender, EventArgs e)
         {
+            level1 level1Form = new level1();
+            level1Form.Show();
+            this.Hide(); 
 
         }
 

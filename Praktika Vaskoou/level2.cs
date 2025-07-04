@@ -18,8 +18,10 @@ namespace Praktika_Vaskoou
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
+        {   
+            Good_Ending goodEndingForm = new Good_Ending();
+            goodEndingForm.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

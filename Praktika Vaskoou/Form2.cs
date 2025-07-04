@@ -69,5 +69,17 @@ namespace Praktika_Vaskoou
         {
 
         }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            Form1 mainMenu = new Form1();
+            mainMenu.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -32,6 +32,7 @@ namespace Praktika_Vaskoou
         {
             this.label_opt = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.vlm_down = new System.Windows.Forms.Button();
             this.vlm_up = new System.Windows.Forms.Button();
             this.label_master_vlm = new System.Windows.Forms.Label();
@@ -54,6 +55,7 @@ namespace Praktika_Vaskoou
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.vlm_down);
             this.panel1.Controls.Add(this.vlm_up);
             this.panel1.Controls.Add(this.label_master_vlm);
@@ -62,6 +64,18 @@ namespace Praktika_Vaskoou
             this.panel1.Size = new System.Drawing.Size(671, 656);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Font = new System.Drawing.Font("Rockwell Extra Bold", 13F);
+            this.button1.Location = new System.Drawing.Point(258, 561);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(153, 69);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Back to\r\nMain Menu";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_3);
             // 
             // vlm_down
             // 
@@ -137,5 +151,6 @@ namespace Praktika_Vaskoou
         private System.Windows.Forms.Label label_master_vlm;
         private System.Windows.Forms.Button vlm_up;
         private System.Windows.Forms.Button vlm_down;
+        private System.Windows.Forms.Button button1;
     }
 }
