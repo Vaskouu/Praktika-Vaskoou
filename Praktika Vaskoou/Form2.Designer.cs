@@ -32,9 +32,9 @@ namespace Praktika_Vaskoou
         {
             this.label_opt = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.vlm_down = new System.Windows.Forms.Button();
             this.vlm_up = new System.Windows.Forms.Button();
             this.label_master_vlm = new System.Windows.Forms.Label();
-            this.vlm_down = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,6 +63,18 @@ namespace Praktika_Vaskoou
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // vlm_down
+            // 
+            this.vlm_down.BackColor = System.Drawing.Color.DimGray;
+            this.vlm_down.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.vlm_down.Location = new System.Drawing.Point(347, 98);
+            this.vlm_down.Name = "vlm_down";
+            this.vlm_down.Size = new System.Drawing.Size(113, 67);
+            this.vlm_down.TabIndex = 2;
+            this.vlm_down.Text = "🔊-";
+            this.vlm_down.UseVisualStyleBackColor = false;
+            this.vlm_down.Click += new System.EventHandler(this.vlm_down_Click);
+            // 
             // vlm_up
             // 
             this.vlm_up.BackColor = System.Drawing.Color.DimGray;
@@ -88,18 +100,6 @@ namespace Praktika_Vaskoou
             this.label_master_vlm.Text = "Master Volume";
             this.label_master_vlm.Click += new System.EventHandler(this.master_volume_Click);
             // 
-            // vlm_down
-            // 
-            this.vlm_down.BackColor = System.Drawing.Color.DimGray;
-            this.vlm_down.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.vlm_down.Location = new System.Drawing.Point(347, 98);
-            this.vlm_down.Name = "vlm_down";
-            this.vlm_down.Size = new System.Drawing.Size(113, 67);
-            this.vlm_down.TabIndex = 2;
-            this.vlm_down.Text = "🔊-";
-            this.vlm_down.UseVisualStyleBackColor = false;
-            this.vlm_down.Click += new System.EventHandler(this.vlm_down_Click);
-            // 
             // Settings_frm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,7 +111,7 @@ namespace Praktika_Vaskoou
             this.Controls.Add(this.label_opt);
             this.DoubleBuffered = true;
             this.Name = "Settings_frm";
-            this.Text = "Settings";
+            this.Text = "2.";
             this.Load += new System.EventHandler(this.Music_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

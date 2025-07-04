@@ -58,6 +58,24 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Good_Ending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Good_Ending.Designer.cs">
+      <DependentUpon>Good_Ending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="level1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level1.Designer.cs">
+      <DependentUpon>level1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="level2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="level2.Designer.cs">
+      <DependentUpon>level2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +83,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Good_Ending.resx">
+      <DependentUpon>Good_Ending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level1.resx">
+      <DependentUpon>level1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level2.resx">
+      <DependentUpon>level2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +127,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Picture2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_street_lvl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_street_lvl2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250630_065251_880-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kushta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250620_223402_430-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

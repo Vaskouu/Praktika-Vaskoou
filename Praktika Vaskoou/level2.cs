@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Form1 : Form
+    public partial class level2 : Form
     {
-        public Form1()
+        public level2()
         {
             InitializeComponent();
         }
@@ -25,18 +25,6 @@ namespace Praktika_Vaskoou
         private void button2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void Quit_button_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void options_button_Click(object sender, EventArgs e)
-        {
-            Settings_frm settingsForm = new Settings_frm();
-            settingsForm.Show();
-            this.Hide();
         }
     }
 }
