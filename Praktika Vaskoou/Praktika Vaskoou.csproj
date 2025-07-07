@@ -64,6 +64,12 @@
     <Compile Include="Good_Ending.Designer.cs">
       <DependentUpon>Good_Ending.cs</DependentUpon>
     </Compile>
+    <Compile Include="ignore_gigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ignore_gigi.Designer.cs">
+      <DependentUpon>ignore_gigi.cs</DependentUpon>
+    </Compile>
     <Compile Include="level1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="trust_gigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trust_gigi.Designer.cs">
+      <DependentUpon>trust_gigi.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Good_Ending.resx">
       <DependentUpon>Good_Ending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ignore_gigi.resx">
+      <DependentUpon>ignore_gigi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="level1.resx">
       <DependentUpon>level1.cs</DependentUpon>
@@ -103,6 +118,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="trust_gigi.resx">
+      <DependentUpon>trust_gigi.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -148,6 +166,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hotel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 paths.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\after_gigi_and_sketchy path.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trust_gigi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gigi1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,9 +63,29 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2_paths {
+            get {
+                object obj = ResourceManager.GetObject("2 paths", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE {
             get {
                 object obj = ResourceManager.GetObject("360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap after_gigi_and_sketchy_path {
+            get {
+                object obj = ResourceManager.GetObject("after_gigi_and_sketchy path", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +106,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap dark_street_lvl2 {
             get {
                 object obj = ResourceManager.GetObject("dark_street_lvl2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gigi1 {
+            get {
+                object obj = ResourceManager.GetObject("gigi1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +196,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap t_dimof {
             get {
                 object obj = ResourceManager.GetObject("t.dimof", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trust_gigi {
+            get {
+                object obj = ResourceManager.GetObject("trust_gigi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -26,7 +26,9 @@ namespace Praktika_Vaskoou
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            ignore_gigi ignoreEnding = new ignore_gigi();
+            ignoreEnding.Show();
+            this.Close();
         }
     }
 }
