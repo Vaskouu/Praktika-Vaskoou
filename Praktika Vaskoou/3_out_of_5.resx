@@ -118,12 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You avoid the stranger, slipping past him into the empty park of Slavevikov.
+    <value>The truth hits you too late - he's been high this entire time.
+The car swerves violently, tires screeching against asphalt as the world becomes a blur.
 
-Two paths stretch before you:
-- A well-lit trail, glowing under buzzing streetlamps
-- A darkened route, swallowed by shadows
+A sickening crunch.
+Shattering glass.
+Then... nothing.
 
-Which do you take?</value>
+The police report will call it an accident.
+The tree won't tell anyone how hard he was laughing when you hit it at 90mph.
+
+[Ending 3 - Car Crash]</value>
   </data>
 </root>

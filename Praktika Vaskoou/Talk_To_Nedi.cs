@@ -10,30 +10,24 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class trust_gigi : Form
+    public partial class Talk_To_Nedi : Form
     {
-        public trust_gigi()
+        public Talk_To_Nedi()
         {
             InitializeComponent();
         }
 
-        private void trust_gigi_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Good_Ending goodEndingForm = new Good_Ending();
-            goodEndingForm.Show();
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Run_Away nextForm = new Run_Away();
+            _3_out_of_5 nextForm = new _3_out_of_5();
             nextForm.Show();
             this.Close();
+
         }
     }
 }

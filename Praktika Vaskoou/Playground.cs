@@ -10,24 +10,17 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class level2 : Form
+    public partial class Playground : Form
     {
-        public level2()
+        public Playground()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            trust_gigi trustGigiForm = new trust_gigi();
-            trustGigiForm.Show();
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ignore_gigi ignoreEnding = new ignore_gigi();
-            ignoreEnding.Show();
+            Dark_Path_2 darkPath = new Dark_Path_2();
+            darkPath.Show();
             this.Close();
         }
     }

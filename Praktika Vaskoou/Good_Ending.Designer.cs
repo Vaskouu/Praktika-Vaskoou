@@ -46,29 +46,29 @@
             // 
             // good_ending_label
             // 
-            this.good_ending_label.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.good_ending_label.BackColor = System.Drawing.Color.Black;
             this.good_ending_label.Font = new System.Drawing.Font("Chiller", 23.81818F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.good_ending_label.ForeColor = System.Drawing.Color.DarkRed;
-            this.good_ending_label.Location = new System.Drawing.Point(192, 47);
+            this.good_ending_label.ForeColor = System.Drawing.Color.Red;
+            this.good_ending_label.Location = new System.Drawing.Point(162, 28);
             this.good_ending_label.Name = "good_ending_label";
-            this.good_ending_label.Size = new System.Drawing.Size(723, 138);
+            this.good_ending_label.Size = new System.Drawing.Size(880, 142);
             this.good_ending_label.TabIndex = 1;
             this.good_ending_label.Text = "He shows you his friends help you reach the nearest hotel.\r\n They get you a room " +
-    "for the night, as they are in the same hotel too.                               " +
-    "[good ending]\r\n";
+    "for the night, as they are in the same hotel too.\r\n[Ending 1 - Good Ending]\r\n";
             this.good_ending_label.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Font = new System.Drawing.Font("Chiller", 35.87273F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(719, 681);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Font = new System.Drawing.Font("Chiller", 65.87273F);
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(699, 586);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(378, 63);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Back to main menu.";
+            this.button1.Size = new System.Drawing.Size(471, 158);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Main Menu";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Good_Ending
             // 

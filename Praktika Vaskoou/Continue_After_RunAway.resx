@@ -118,12 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You avoid the stranger, slipping past him into the empty park of Slavevikov.
-
-Two paths stretch before you:
-- A well-lit trail, glowing under buzzing streetlamps
-- A darkened route, swallowed by shadows
-
-Which do you take?</value>
+    <value>You encounter another stranger in the dim hallway - this one has shifty eyes and moves erratically, clearly under the influence.
+With the elevator broken behind you and no other exits in sight, you're forced to make a choice:
+Approach him cautiously or keep your distance and observe?</value>
   </data>
 </root>

@@ -118,12 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You avoid the stranger, slipping past him into the empty park of Slavevikov.
+    <value>You get closer to the safe-looking playground but you stumble upon Dimoff. 
 
-Two paths stretch before you:
-- A well-lit trail, glowing under buzzing streetlamps
-- A darkened route, swallowed by shadows
+You ask him to help you, but he tells you that he has to film his song and does not let you get any closer to the playground. 
 
-Which do you take?</value>
+You have two choices - either fight him or go to the dark path.</value>
   </data>
 </root>

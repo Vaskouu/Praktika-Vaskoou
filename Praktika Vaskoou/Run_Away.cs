@@ -10,28 +10,16 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class trust_gigi : Form
+    public partial class Run_Away : Form
     {
-        public trust_gigi()
+        public Run_Away()
         {
             InitializeComponent();
         }
 
-        private void trust_gigi_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Good_Ending goodEndingForm = new Good_Ending();
-            goodEndingForm.Show();
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Run_Away nextForm = new Run_Away();
+            Continue_After_RunAway nextForm = new Continue_After_RunAway();
             nextForm.Show();
             this.Close();
         }

@@ -10,29 +10,29 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class trust_gigi : Form
+    public partial class Continue_After_RunAway : Form
     {
-        public trust_gigi()
+        public Continue_After_RunAway()
         {
             InitializeComponent();
         }
 
-        private void trust_gigi_Load(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Good_Ending goodEndingForm = new Good_Ending();
-            goodEndingForm.Show();
+            Stay_Hidden_After_Nedi nextForm = new Stay_Hidden_After_Nedi();
+            nextForm.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Run_Away nextForm = new Run_Away();
-            nextForm.Show();
+            Talk_To_Nedi talkForm = new Talk_To_Nedi();
+            talkForm.Show();
             this.Close();
         }
     }

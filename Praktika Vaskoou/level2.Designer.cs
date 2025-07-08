@@ -37,8 +37,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Chiller", 25.29091F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(370, 342);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(197, 109);
@@ -49,8 +50,9 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Font = new System.Drawing.Font("Chiller", 25.29091F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(337, 523);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(267, 109);
@@ -71,14 +73,14 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Font = new System.Drawing.Font("Chiller", 32.87273F);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Chiller", 32.87273F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(302, 40);
+            this.label1.Location = new System.Drawing.Point(272, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(654, 120);
+            this.label1.Size = new System.Drawing.Size(701, 120);
             this.label1.TabIndex = 4;
-            this.label1.Text = "You find a stranger on the street.\r\nHe seems kinda sketchy. What do you do?";
+            this.label1.Text = "     You find a stranger on the street.\r\nHe seems kinda sketchy. What do you do?";
             // 
             // level2
             // 

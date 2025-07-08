@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class ignore_gigi : Form
+    public partial class Dark_Path_2 : Form
     {
-        public ignore_gigi()
+        public Dark_Path_2()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Lit_Path litPathForm = new Lit_Path();
-            litPathForm.Show();
-            this.Close();
         }
     }
 }

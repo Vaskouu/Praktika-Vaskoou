@@ -83,9 +83,29 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3bac723e_9b32_4551_832e_aec52a1d4faf_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap after_gigi_and_sketchy_path {
             get {
                 object obj = ResourceManager.GetObject("after_gigi_and_sketchy path", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap car_crash {
+            get {
+                object obj = ResourceManager.GetObject("car_crash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +183,76 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap last_pl {
+            get {
+                object obj = ResourceManager.GetObject("last_pl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nedi1 {
+            get {
+                object obj = ResourceManager.GetObject("nedi1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nedislave {
+            get {
+                object obj = ResourceManager.GetObject("nedislave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap park_paths {
+            get {
+                object obj = ResourceManager.GetObject("park paths", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parking_lot {
+            get {
+                object obj = ResourceManager.GetObject("parking lot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap parking_lot1 {
+            get {
+                object obj = ResourceManager.GetObject("parking lot1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pg {
+            get {
+                object obj = ResourceManager.GetObject("pg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Picture1 {
             get {
                 object obj = ResourceManager.GetObject("Picture1", resourceCulture);
@@ -176,6 +266,17 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap Picture2 {
             get {
                 object obj = ResourceManager.GetObject("Picture2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-p" +
+                        "review", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

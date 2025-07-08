@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You missed your last bus to home, and now you are stuck in Slaveikov.
-Your best chances of surviving the night are seeking shelter.
-You start going through the dark streets looking for a motel or someone who can help.</value>
+    <value>You missed the last bus home, leaving you stranded in Slaveikov.
+Your best chance of surviving the night is to find shelter.
+You begin wandering the darkened streets, searching for a motel or anyone who might help.</value>
   </data>
 </root>

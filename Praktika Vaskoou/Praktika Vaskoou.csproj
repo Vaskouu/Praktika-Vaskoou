@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3_out_of_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3_out_of_5.Designer.cs">
+      <DependentUpon>3_out_of_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continue_After_RunAway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continue_After_RunAway.Designer.cs">
+      <DependentUpon>Continue_After_RunAway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dark_Path_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dark_Path_2.Designer.cs">
+      <DependentUpon>Dark_Path_2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,14 +100,53 @@
     <Compile Include="level2.Designer.cs">
       <DependentUpon>level2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lit_Path.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lit_Path.Designer.cs">
+      <DependentUpon>Lit_Path.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playground.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Playground.Designer.cs">
+      <DependentUpon>Playground.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Run_Away.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Run_Away.Designer.cs">
+      <DependentUpon>Run_Away.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stay_Hidden_After_Nedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stay_Hidden_After_Nedi.Designer.cs">
+      <DependentUpon>Stay_Hidden_After_Nedi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Talk_To_Nedi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Talk_To_Nedi.Designer.cs">
+      <DependentUpon>Talk_To_Nedi.cs</DependentUpon>
+    </Compile>
     <Compile Include="trust_gigi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="trust_gigi.Designer.cs">
       <DependentUpon>trust_gigi.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="3_out_of_5.resx">
+      <DependentUpon>3_out_of_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continue_After_RunAway.resx">
+      <DependentUpon>Continue_After_RunAway.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dark_Path_2.resx">
+      <DependentUpon>Dark_Path_2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +165,12 @@
     <EmbeddedResource Include="level2.resx">
       <DependentUpon>level2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lit_Path.resx">
+      <DependentUpon>Lit_Path.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Playground.resx">
+      <DependentUpon>Playground.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,6 +181,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Run_Away.resx">
+      <DependentUpon>Run_Away.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stay_Hidden_After_Nedi.resx">
+      <DependentUpon>Stay_Hidden_After_Nedi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Talk_To_Nedi.resx">
+      <DependentUpon>Talk_To_Nedi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="trust_gigi.resx">
       <DependentUpon>trust_gigi.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +250,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gigi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parking lot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parking lot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nedi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nedislave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_pl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_crash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park paths.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

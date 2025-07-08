@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You avoid the stranger, slipping past him into the empty park of Slavevikov.
+    <value>The lit path leads you to another split in the trail:
 
-Two paths stretch before you:
-- A well-lit trail, glowing under buzzing streetlamps
-- A darkened route, swallowed by shadows
+A brightly lit playground, bathed in the warm glow of streetlamps. Swings creak gently in the wind, but no one’s there.
 
-Which do you take?</value>
+A narrow, unlit gap between the playground fence and the woods. From the darkness, something rustles—followed by a low, wet chuckle.
+
+Your pulse quickens. Which path do you trust?</value>
   </data>
 </root>
