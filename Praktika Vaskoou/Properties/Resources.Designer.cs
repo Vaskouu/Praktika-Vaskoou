@@ -183,9 +183,49 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dead_b {
+            get {
+                object obj = ResourceManager.GetObject("dead_b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap file_000000000c9c62439f7ac91c7c242ac3 {
             get {
                 object obj = ResourceManager.GetObject("file_000000000c9c62439f7ac91c7c242ac3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000000c9c62439f7ac91c7c242ac31 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000000c9c62439f7ac91c7c242ac31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000000c9c62439f7ac91c7c242ac32 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000000c9c62439f7ac91c7c242ac32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000000c9c62439f7ac91c7c242ac33 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000000c9c62439f7ac91c7c242ac33", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +313,16 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nedi11 {
+            get {
+                object obj = ResourceManager.GetObject("nedi11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nedislave {
             get {
                 object obj = ResourceManager.GetObject("nedislave", resourceCulture);
@@ -316,6 +366,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap pg {
             get {
                 object obj = ResourceManager.GetObject("pg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pg1 {
+            get {
+                object obj = ResourceManager.GetObject("pg1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

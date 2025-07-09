@@ -10,28 +10,18 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Run1 : Form
+    public partial class Run2 : Form
     {
-        public Run1()
+        public Run2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Run2 runForm = new Run2();
-            runForm.Show();
+            Run3 runForm2 = new Run3();
+            runForm2.Show();
             this.Close();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

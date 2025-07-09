@@ -70,6 +70,30 @@
     <Compile Include="Dark_Path_Cont.Designer.cs">
       <DependentUpon>Dark_Path_Cont.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dead_End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dead_End.Designer.cs">
+      <DependentUpon>Dead_End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dimoff_End.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dimoff_End.Designer.cs">
+      <DependentUpon>Dimoff_End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FightGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightGameForm.Designer.cs">
+      <DependentUpon>FightGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fight_Dimoff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fight_Dimoff.Designer.cs">
+      <DependentUpon>Fight_Dimoff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +150,18 @@
     <Compile Include="Run1.Designer.cs">
       <DependentUpon>Run1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Run2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Run2.Designer.cs">
+      <DependentUpon>Run2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Run3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Run3.Designer.cs">
+      <DependentUpon>Run3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Run_Away.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +197,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dark_Path_Cont.resx">
       <DependentUpon>Dark_Path_Cont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dead_End.resx">
+      <DependentUpon>Dead_End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dimoff_End.resx">
+      <DependentUpon>Dimoff_End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightGameForm.resx">
+      <DependentUpon>FightGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fight_Dimoff.resx">
+      <DependentUpon>Fight_Dimoff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -198,6 +246,12 @@
     </Compile>
     <EmbeddedResource Include="Run1.resx">
       <DependentUpon>Run1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Run2.resx">
+      <DependentUpon>Run2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Run3.resx">
+      <DependentUpon>Run3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Run_Away.resx">
       <DependentUpon>Run_Away.cs</DependentUpon>
@@ -319,6 +373,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\darkslave2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000000c9c62439f7ac91c7c242ac31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000000c9c62439f7ac91c7c242ac32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_000000000c9c62439f7ac91c7c242ac33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nedi11.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

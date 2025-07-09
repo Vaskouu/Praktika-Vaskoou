@@ -10,28 +10,25 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Run1 : Form
+    public partial class Fight_Dimoff : Form
     {
-        public Run1()
+        public Fight_Dimoff()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Run2 runForm = new Run2();
-            runForm.Show();
+            Dark_Path_2 darkPath = new Dark_Path_2();
+            darkPath.Show();
             this.Close();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
+            Dimoff_End ending4 = new Dimoff_End();
+            ending4.Show();
+            this.Close();
         }
     }
 }

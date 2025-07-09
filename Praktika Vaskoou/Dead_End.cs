@@ -10,24 +10,22 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Playground : Form
+    public partial class Dead_End : Form
     {
-        public Playground()
+        public Dead_End()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Dead_End_Load(object sender, EventArgs e)
         {
-            Dark_Path_2 darkPath = new Dark_Path_2();
-            darkPath.Show();
-            this.Close();
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Fight_Dimoff fdm = new Fight_Dimoff();
-            fdm.Show();
+            Form1 mainMenu = new Form1();
+            mainMenu.Show();
             this.Close();
         }
     }
