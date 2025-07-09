@@ -113,6 +113,26 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_9_07_2025_г___08_52_45 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 9.07.2025 г., 08_52_45", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_9_07_2025_г___09_09_52 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 9.07.2025 г., 09_09_52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dark_street_lvl1 {
             get {
                 object obj = ResourceManager.GetObject("dark_street_lvl1", resourceCulture);
@@ -126,6 +146,56 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap dark_street_lvl2 {
             get {
                 object obj = ResourceManager.GetObject("dark_street_lvl2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap darkslave {
+            get {
+                object obj = ResourceManager.GetObject("darkslave", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap darkslave1 {
+            get {
+                object obj = ResourceManager.GetObject("darkslave1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap darkslave2 {
+            get {
+                object obj = ResourceManager.GetObject("darkslave2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000000c9c62439f7ac91c7c242ac3 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000000c9c62439f7ac91c7c242ac3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_000000006b34624399a0d1fda45f05e3 {
+            get {
+                object obj = ResourceManager.GetObject("file_000000006b34624399a0d1fda45f05e3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

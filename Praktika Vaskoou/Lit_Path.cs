@@ -23,5 +23,12 @@ namespace Praktika_Vaskoou
             playgroundForm.Show();
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Dark_Path_2 darkPath = new Dark_Path_2();
+            darkPath.Show();
+            this.Close();
+        }
     }
 }

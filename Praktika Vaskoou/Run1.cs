@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Dark_Path_2 : Form
+    public partial class Run1 : Form
     {
-        public Dark_Path_2()
+        public Run1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Dark_Path_Cont darkPathCont = new Dark_Path_Cont();
-            darkPathCont.Show();
-            this.Close();
         }
     }
 }
