@@ -103,6 +103,16 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ap_building {
+            get {
+                object obj = ResourceManager.GetObject("ap_building", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap car_crash {
             get {
                 object obj = ResourceManager.GetObject("car_crash", resourceCulture);
@@ -126,6 +136,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap ChatGPT_Image_9_07_2025_г___09_09_52 {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image 9.07.2025 г., 09_09_52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dark_P {
+            get {
+                object obj = ResourceManager.GetObject("dark_P", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +273,59 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap greeny {
+            get {
+                object obj = ResourceManager.GetObject("greeny", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hotel1 {
             get {
                 object obj = ResourceManager.GetObject("hotel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20250620_223254_608_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20250620_223254_608-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20250620_223254_608_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20250620_223254_608-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20250620_223332_753_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20250620_223332_753-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_20250620_223342_729_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("IMG_20250620_223342_729-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -414,6 +484,16 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sky {
+            get {
+                object obj = ResourceManager.GetObject("sky", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Slaveikov {
             get {
                 object obj = ResourceManager.GetObject("Slaveikov", resourceCulture);
@@ -437,6 +517,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap trust_gigi {
             get {
                 object obj = ResourceManager.GetObject("trust_gigi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Екранна_снимка_2025_07_10_105427 {
+            get {
+                object obj = ResourceManager.GetObject("Екранна снимка 2025-07-10 105427", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

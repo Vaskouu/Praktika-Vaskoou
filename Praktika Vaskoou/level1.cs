@@ -28,5 +28,10 @@ namespace Praktika_Vaskoou
             level2Form.Show();
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

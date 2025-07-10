@@ -10,29 +10,17 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Continue_After_RunAway : Form
+    public partial class Gogi_Help : Form
     {
-        public Continue_After_RunAway()
+        public Gogi_Help()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Stay_Hidden_After_Nedi nextForm = new Stay_Hidden_After_Nedi();
-            nextForm.Show();
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Talk_To_Nedi talkForm = new Talk_To_Nedi();
-            talkForm.Show();
+            Follow_Gogi gogii = new Follow_Gogi();
+            gogii.Show();
             this.Close();
         }
 

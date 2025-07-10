@@ -60,13 +60,14 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Chiller", 30.25F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.DarkRed;
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(12, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1162, 108);
             this.label2.TabIndex = 2;
             this.label2.Text = "             He asks you to continue forward through a suspicious street.\r\nYou fe" +
     "el like there is something wrong with it. Do you continue or run away?";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 

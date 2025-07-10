@@ -64,6 +64,12 @@
     <Compile Include="Dark_Path_2.Designer.cs">
       <DependentUpon>Dark_Path_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dark_Path_After_Gigi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dark_Path_After_Gigi.Designer.cs">
+      <DependentUpon>Dark_Path_After_Gigi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dark_Path_Cont.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,12 @@
     <Compile Include="Fight_Dimoff.Designer.cs">
       <DependentUpon>Fight_Dimoff.cs</DependentUpon>
     </Compile>
+    <Compile Include="Follow_Gogi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Follow_Gogi.Designer.cs">
+      <DependentUpon>Follow_Gogi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +117,18 @@
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gogi1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gogi1.Designer.cs">
+      <DependentUpon>Gogi1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gogi_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gogi_Help.Designer.cs">
+      <DependentUpon>Gogi_Help.cs</DependentUpon>
     </Compile>
     <Compile Include="Good_Ending.cs">
       <SubType>Form</SubType>
@@ -195,6 +219,9 @@
     <EmbeddedResource Include="Dark_Path_2.resx">
       <DependentUpon>Dark_Path_2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dark_Path_After_Gigi.resx">
+      <DependentUpon>Dark_Path_After_Gigi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dark_Path_Cont.resx">
       <DependentUpon>Dark_Path_Cont.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,11 +237,20 @@
     <EmbeddedResource Include="Fight_Dimoff.resx">
       <DependentUpon>Fight_Dimoff.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Follow_Gogi.resx">
+      <DependentUpon>Follow_Gogi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gogi1.resx">
+      <DependentUpon>Gogi1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gogi_Help.resx">
+      <DependentUpon>Gogi_Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Good_Ending.resx">
       <DependentUpon>Good_Ending.cs</DependentUpon>
@@ -391,6 +427,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\nedi11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark_P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250620_223254_608-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250620_223254_608-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greeny.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250620_223342_729-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ap_building.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Екранна снимка 2025-07-10 105427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20250620_223332_753-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

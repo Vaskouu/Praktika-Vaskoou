@@ -30,26 +30,14 @@ namespace Praktika_Vaskoou
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_opt = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.vlm_down = new System.Windows.Forms.Button();
+            this.label_opt = new System.Windows.Forms.Label();
             this.vlm_up = new System.Windows.Forms.Button();
             this.label_master_vlm = new System.Windows.Forms.Label();
+            this.vlm_down = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label_opt
-            // 
-            this.label_opt.AutoSize = true;
-            this.label_opt.BackColor = System.Drawing.Color.Transparent;
-            this.label_opt.Font = new System.Drawing.Font("Rockwell Extra Bold", 39.92727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_opt.Location = new System.Drawing.Point(424, 9);
-            this.label_opt.Name = "label_opt";
-            this.label_opt.Size = new System.Drawing.Size(350, 72);
-            this.label_opt.TabIndex = 0;
-            this.label_opt.Text = "OPTIONS";
-            this.label_opt.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // panel1
             // 
@@ -77,17 +65,17 @@ namespace Praktika_Vaskoou
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_3);
             // 
-            // vlm_down
+            // label_opt
             // 
-            this.vlm_down.BackColor = System.Drawing.Color.DimGray;
-            this.vlm_down.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.vlm_down.Location = new System.Drawing.Point(347, 98);
-            this.vlm_down.Name = "vlm_down";
-            this.vlm_down.Size = new System.Drawing.Size(113, 67);
-            this.vlm_down.TabIndex = 2;
-            this.vlm_down.Text = "🔊-";
-            this.vlm_down.UseVisualStyleBackColor = false;
-            this.vlm_down.Click += new System.EventHandler(this.vlm_down_Click);
+            this.label_opt.AutoSize = true;
+            this.label_opt.BackColor = System.Drawing.Color.Transparent;
+            this.label_opt.Font = new System.Drawing.Font("Rockwell Extra Bold", 39.92727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_opt.Location = new System.Drawing.Point(424, 9);
+            this.label_opt.Name = "label_opt";
+            this.label_opt.Size = new System.Drawing.Size(350, 72);
+            this.label_opt.TabIndex = 0;
+            this.label_opt.Text = "OPTIONS";
+            this.label_opt.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // vlm_up
             // 
@@ -113,6 +101,18 @@ namespace Praktika_Vaskoou
             this.label_master_vlm.TabIndex = 0;
             this.label_master_vlm.Text = "Master Volume";
             this.label_master_vlm.Click += new System.EventHandler(this.master_volume_Click);
+            // 
+            // vlm_down
+            // 
+            this.vlm_down.BackColor = System.Drawing.Color.DimGray;
+            this.vlm_down.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.vlm_down.Location = new System.Drawing.Point(347, 98);
+            this.vlm_down.Name = "vlm_down";
+            this.vlm_down.Size = new System.Drawing.Size(113, 67);
+            this.vlm_down.TabIndex = 2;
+            this.vlm_down.Text = "🔊-";
+            this.vlm_down.UseVisualStyleBackColor = false;
+            this.vlm_down.Click += new System.EventHandler(this.vlm_down_Click);
             // 
             // Settings_frm
             // 
@@ -145,12 +145,11 @@ namespace Praktika_Vaskoou
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label_opt;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label_master_vlm;
-        private System.Windows.Forms.Button vlm_up;
-        private System.Windows.Forms.Button vlm_down;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button vlm_down;
+        private System.Windows.Forms.Button vlm_up;
+        private System.Windows.Forms.Label label_master_vlm;
+        private System.Windows.Forms.Label label_opt;
     }
 }

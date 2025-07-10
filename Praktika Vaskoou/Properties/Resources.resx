@@ -124,11 +124,11 @@
   <data name="ChatGPT Image 9.07.2025 г., 09_09_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image 9.07.2025 г., 09_09_52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kushta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kushta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="park paths" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\park paths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,17 +139,32 @@
   <data name="2 paths" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2 paths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sky.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nedi11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nedi11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="car_crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\car_crash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="parking lot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parking lot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="file_000000000c9c62439f7ac91c7c242ac31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_000000000c9c62439f7ac91c7c242ac31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ChatGPT Image 9.07.2025 г., 08_52_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChatGPT Image 9.07.2025 г., 08_52_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Екранна снимка 2025-07-10 105427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Екранна снимка 2025-07-10 105427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20250620_223254_608-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223254_608-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="parking lot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parking lot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,8 +181,8 @@
   <data name="dark_street_lvl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark_street_lvl2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="after_gigi_and_sketchy path" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\after_gigi_and_sketchy path.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="greeny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greeny.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="file_000000006b34624399a0d1fda45f05e3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\file_000000006b34624399a0d1fda45f05e3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,6 +199,9 @@
   <data name="dark_street_lvl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark_street_lvl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dark_P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dark_P.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nedi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nedi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,14 +211,23 @@
   <data name="Picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Picture2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IMG_20250620_223402_430-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223402_430-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dead_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dead_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="file_000000000c9c62439f7ac91c7c242ac31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\file_000000000c9c62439f7ac91c7c242ac31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="darkslave2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\darkslave2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kushta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kushta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20250620_223342_729-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223342_729-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ap_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ap_building.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="last_pl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\last_pl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +235,8 @@
   <data name="darkslave1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\darkslave1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="darkslave2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\darkslave2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_20250620_223254_608-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223254_608-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="file_000000000c9c62439f7ac91c7c242ac32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\file_000000000c9c62439f7ac91c7c242ac32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,11 +244,11 @@
   <data name="nedislave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nedislave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChatGPT Image 9.07.2025 г., 08_52_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatGPT Image 9.07.2025 г., 08_52_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="parking lot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking lot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_20250620_223402_430-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_20250620_223402_430-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="after_gigi_and_sketchy path" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\after_gigi_and_sketchy path.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="darkslave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\darkslave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,7 +256,7 @@
   <data name="hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hotel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nedi11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nedi11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_20250620_223332_753-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223332_753-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

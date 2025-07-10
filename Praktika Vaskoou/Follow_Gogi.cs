@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Praktika_Vaskoou
 {
-    public partial class Stay_Hidden_After_Nedi : Form
+    public partial class Follow_Gogi : Form
     {
-        public Stay_Hidden_After_Nedi()
+        public Follow_Gogi()
         {
             InitializeComponent();
         }
@@ -22,11 +22,6 @@ namespace Praktika_Vaskoou
             Form1 mainMenu = new Form1();
             mainMenu.Show();
             this.Close();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

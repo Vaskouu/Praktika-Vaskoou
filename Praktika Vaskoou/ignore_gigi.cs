@@ -26,7 +26,9 @@ namespace Praktika_Vaskoou
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Dark_Path_After_Gigi nextForm = new Dark_Path_After_Gigi();
+            nextForm.Show();
+            this.Close();
         }
     }
 }

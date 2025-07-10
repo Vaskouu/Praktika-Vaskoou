@@ -118,9 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You stayed hidden. The stranger drove away. The gate clanged shut.
-Now you're trapped in the endless concrete maze—flickering lights, distant echoes, and the creeping realization... you were always meant to stay here.
-
-[Ending 2 - Alone forever]</value>
+    <value>You press forward along the dark path as an unsettling, nauseating smell fills the air.
+Overcome by sudden drowsiness, you stop to rest right there in the middle of the path, your eyelids growing heavy.</value>
   </data>
 </root>
