@@ -192,6 +192,12 @@
     <Compile Include="Run_Away.Designer.cs">
       <DependentUpon>Run_Away.cs</DependentUpon>
     </Compile>
+    <Compile Include="secret_ending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secret_ending.Designer.cs">
+      <DependentUpon>secret_ending.cs</DependentUpon>
+    </Compile>
     <Compile Include="Stay_Hidden_After_Nedi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -291,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Run_Away.resx">
       <DependentUpon>Run_Away.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secret_ending.resx">
+      <DependentUpon>secret_ending.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Stay_Hidden_After_Nedi.resx">
       <DependentUpon>Stay_Hidden_After_Nedi.cs</DependentUpon>
@@ -454,6 +463,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\IMG_20250620_223332_753-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gogi job.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

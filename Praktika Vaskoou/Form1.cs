@@ -21,7 +21,7 @@ namespace Praktika_Vaskoou
         {
             level1 level1Form = new level1();
             level1Form.Show();
-            this.Hide(); 
+            this.Hide();
 
         }
 
@@ -40,6 +40,20 @@ namespace Praktika_Vaskoou
             Settings_frm settingsForm = new Settings_frm();
             settingsForm.Show();
             this.Hide();
+        }
+
+        private int titleClickCount = 0;
+        private void title_Click(object sender, EventArgs e)
+        {
+            titleClickCount++;
+
+            if (titleClickCount == 5)
+            {
+                titleClickCount = 0;
+                secret_ending secretEnding = new secret_ending();
+                secretEnding.Show();
+                this.Hide();
+            }
         }
     }
 }

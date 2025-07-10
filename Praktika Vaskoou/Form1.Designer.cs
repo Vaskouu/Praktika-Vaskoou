@@ -30,7 +30,7 @@
         {
             this.play_button = new System.Windows.Forms.Button();
             this.options_button = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.title = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Quit_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,17 +60,18 @@
             this.options_button.UseVisualStyleBackColor = false;
             this.options_button.Click += new System.EventHandler(this.options_button_Click);
             // 
-            // label1
+            // title
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Chiller", 60.92727F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(162, 56);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(871, 109);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "SLAVEIKOV AT 03:00 AM";
+            this.title.AutoSize = true;
+            this.title.BackColor = System.Drawing.Color.Transparent;
+            this.title.Font = new System.Drawing.Font("Chiller", 60.92727F, System.Drawing.FontStyle.Bold);
+            this.title.ForeColor = System.Drawing.Color.Red;
+            this.title.Location = new System.Drawing.Point(162, 56);
+            this.title.Name = "title";
+            this.title.Size = new System.Drawing.Size(871, 109);
+            this.title.TabIndex = 3;
+            this.title.Text = "SLAVEIKOV AT 03:00 AM";
+            this.title.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -103,7 +104,7 @@
             this.ClientSize = new System.Drawing.Size(1182, 756);
             this.Controls.Add(this.Quit_button);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.title);
             this.Controls.Add(this.options_button);
             this.Controls.Add(this.play_button);
             this.DoubleBuffered = true;
@@ -120,7 +121,7 @@
 
         private System.Windows.Forms.Button play_button;
         private System.Windows.Forms.Button options_button;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label title;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Quit_button;
     }

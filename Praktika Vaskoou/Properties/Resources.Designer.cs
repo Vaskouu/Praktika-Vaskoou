@@ -113,6 +113,26 @@ namespace Praktika_Vaskoou.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Background_2 {
+            get {
+                object obj = ResourceManager.GetObject("Background 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Background_21 {
+            get {
+                object obj = ResourceManager.GetObject("Background 21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap car_crash {
             get {
                 object obj = ResourceManager.GetObject("car_crash", resourceCulture);
@@ -266,6 +286,16 @@ namespace Praktika_Vaskoou.Properties {
         internal static System.Drawing.Bitmap gigi1 {
             get {
                 object obj = ResourceManager.GetObject("gigi1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gogi_job {
+            get {
+                object obj = ResourceManager.GetObject("gogi job", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -130,6 +130,9 @@
   <data name="360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\360_F_949385191_jJMXBAgTUtRfacsh2rSNsIFLPdOQJoFE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Background 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="park paths" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\park paths.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,8 +151,8 @@
   <data name="car_crash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\car_crash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="file_000000000c9c62439f7ac91c7c242ac31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\file_000000000c9c62439f7ac91c7c242ac31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="parking lot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parking lot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_20250708_104028_com_instagram_android_InstagramMainActivity-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +160,14 @@
   <data name="ChatGPT Image 9.07.2025 г., 08_52_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image 9.07.2025 г., 08_52_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Екранна снимка 2025-07-10 105427" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Екранна снимка 2025-07-10 105427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="file_000000000c9c62439f7ac91c7c242ac31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_000000000c9c62439f7ac91c7c242ac31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3bac723e-9b32-4551-832e-aec52a1d4faf.thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20250620_223332_753-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20250620_223332_753-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_20250620_223254_608-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_20250620_223254_608-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,8 +250,8 @@
   <data name="nedislave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nedislave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="parking lot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\parking lot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Екранна снимка 2025-07-10 105427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Екранна снимка 2025-07-10 105427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="after_gigi_and_sketchy path" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\after_gigi_and_sketchy path.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +262,10 @@
   <data name="hotel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hotel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_20250620_223332_753-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_20250620_223332_753-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Background 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gogi job" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gogi job.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
