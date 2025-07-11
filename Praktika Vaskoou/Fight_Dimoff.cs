@@ -26,6 +26,7 @@ namespace Praktika_Vaskoou
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
             Dimoff_End ending4 = new Dimoff_End();
             ending4.Show();
             this.Close();

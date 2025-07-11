@@ -1,4 +1,6 @@
-﻿namespace Praktika_Vaskoou
+﻿using System;
+
+namespace Praktika_Vaskoou
 {
     partial class Form1
     {
@@ -29,10 +31,10 @@
         private void InitializeComponent()
         {
             this.play_button = new System.Windows.Forms.Button();
-            this.options_button = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Quit_button = new System.Windows.Forms.Button();
+            this.options_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,18 +49,6 @@
             this.play_button.Text = "PLAY";
             this.play_button.UseVisualStyleBackColor = false;
             this.play_button.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // options_button
-            // 
-            this.options_button.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.options_button.Font = new System.Drawing.Font("Chiller", 39.92727F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.options_button.Location = new System.Drawing.Point(509, 393);
-            this.options_button.Name = "options_button";
-            this.options_button.Size = new System.Drawing.Size(221, 104);
-            this.options_button.TabIndex = 1;
-            this.options_button.Text = "OPTIONS";
-            this.options_button.UseVisualStyleBackColor = false;
-            this.options_button.Click += new System.EventHandler(this.options_button_Click);
             // 
             // title
             // 
@@ -82,6 +72,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(273, 337);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Quit_button
             // 
@@ -94,6 +85,18 @@
             this.Quit_button.Text = "QUIT";
             this.Quit_button.UseVisualStyleBackColor = false;
             this.Quit_button.Click += new System.EventHandler(this.Quit_button_Click);
+            // 
+            // options_button
+            // 
+            this.options_button.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.options_button.Font = new System.Drawing.Font("Chiller", 39.92727F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.options_button.Location = new System.Drawing.Point(509, 393);
+            this.options_button.Name = "options_button";
+            this.options_button.Size = new System.Drawing.Size(221, 104);
+            this.options_button.TabIndex = 1;
+            this.options_button.Text = "OPTIONS";
+            this.options_button.UseVisualStyleBackColor = false;
+            this.options_button.Click += new System.EventHandler(this.options_button_Click);
             // 
             // Form1
             // 
@@ -117,13 +120,18 @@
 
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         #endregion
 
         private System.Windows.Forms.Button play_button;
-        private System.Windows.Forms.Button options_button;
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Quit_button;
+        private System.Windows.Forms.Button options_button;
     }
 }
 

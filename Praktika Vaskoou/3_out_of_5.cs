@@ -19,6 +19,9 @@ namespace Praktika_Vaskoou
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+            EndingTracker.Endings[4] = true;
+            //EndingTracker.UnlockEnding(4);
             Form1 mainMenu = new Form1();
             mainMenu.Show();
             this.Close();

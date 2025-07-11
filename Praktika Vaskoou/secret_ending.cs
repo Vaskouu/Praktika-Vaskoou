@@ -19,7 +19,17 @@ namespace Praktika_Vaskoou
 
         private void secret_ending_Load(object sender, EventArgs e)
         {
+            Timer timer = new Timer();
+            timer.Interval = 3000; // 3 seconds
+            timer.Tick += Timer_Tick; // Attach event handler
+            timer.Start();
+        }
 
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            var timer = (Timer)sender;
+            timer.Stop();
+            Application.Exit(); 
         }
     }
 }
